@@ -5,6 +5,7 @@
     <RootNamespace>codewars_cs</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
 </Project>
