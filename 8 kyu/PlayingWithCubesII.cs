@@ -8,7 +8,7 @@ public class Cube
   
     public Cube(int side=0)
     {
-        Side = side > 0? side: -side;
+        SetSide(side);
     }
   
     public int GetSide()
@@ -18,6 +18,6 @@ public class Cube
   
     public void SetSide(int s)
     {
-        this.Side = s;
+        this.Side = s >= 0? s: -s;
     }
 }
