@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codewars-cs", "codewars-cs.csproj", "{A3476CF6-E995-4C47-851D-C04182D8D8FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codewars-cs.Tests", "..\codewars-cs-tests\codewars-cs.Tests.csproj", "{2C289FD9-A5FF-41AC-8157-6A2F6BC92AE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A3476CF6-E995-4C47-851D-C04182D8D8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3476CF6-E995-4C47-851D-C04182D8D8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3476CF6-E995-4C47-851D-C04182D8D8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C289FD9-A5FF-41AC-8157-6A2F6BC92AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C289FD9-A5FF-41AC-8157-6A2F6BC92AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C289FD9-A5FF-41AC-8157-6A2F6BC92AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C289FD9-A5FF-41AC-8157-6A2F6BC92AE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

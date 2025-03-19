@@ -7,5 +7,9 @@
     <Nullable>enable</Nullable>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
+  <ItemGroup>
+	  <InternalsVisibleTo Include="$(AssemblyName).Tests"/>
+  </ItemGroup>
+
 
 </Project>
